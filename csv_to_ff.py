@@ -1,12 +1,14 @@
 #!/usr/local/bin/python3
 
+import csv
 import pyperclip
 
 command = ""
 
 with open('hero_stats.csv', 'r', encoding='utf-8') as f:
-    for line in f:
-        split = line.rstrip('\n').split(',')
-        command += split[0] + " " + split[1] + " "
+    reader = csv.reader(f, delimiter=',')
 
-pyperclip.copy(command)
+    for row in reader:
+        command += ' '.join(row) + ' '
+
+pyperclip.copy(command.rstrip(' '))
