@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Python must be installed
+- [Python](https://www.python.org/downloads/) must be installed
 
 - The `pyperclip` library can be installed by running
 
