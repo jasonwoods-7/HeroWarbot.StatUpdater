@@ -1,5 +1,15 @@
 # Hero Warbot Stat Updater
 
+## Prerequisites
+
+- Python must be installed
+
+- The `pyperclip` library can be installed by running
+
+  ```shell
+  pip install pyperclip
+  ```
+
 ## How to use
 
 - Update the `hero_stats.csv` file to your current hero\titan power.
