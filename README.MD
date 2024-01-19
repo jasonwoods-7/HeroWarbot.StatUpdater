@@ -3,6 +3,8 @@
 ## Prerequisites
 
 - [Python](https://www.python.org/downloads/) must be installed
+  - Can be installed from the Windows Store (Windows)
+  - Can be installed using HomeBrew (MacOs)
 
 - The `pyperclip` library can be installed by running
 
